@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" href="images/favicon-16x16.png" type="image/x-icon" />
+    <!-- BOOTSRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inconsolata:wght@900&family=Merriweather:ital@0;1&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light mb-4">
+      <div class="container-fluid col-md-6">
+        <a class="navbar-brand fw-bold fs-2" href="#">JOSE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav fs-5 fw-bold">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about-me"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ABOUT ME SECTION -->
+    <main class="container col-md-6 mb-0" id="about-me">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <h1 class="mb-3">About me</h1>
+          <p>
+            Hello, I am Jose a future Software & Web Developer. This is my
+            portfolio and I did this to show to the people and my future
+            companies my skils and personality. Coding and different type of
+            sports is what I do almost everyday and because of that I am able to
+            code my own websites and apps and doing many sports makes you really
+            fit, So yes I am a fit person.
+          </p>
+          <p>
+            I spend time with my girlfriend
+            <a class="gwen" href="https://www.facebook.com/gwnmxnsmain">gwen</a>
+            and my family most of the time and I love it, And they're the one
+            who supports me in my coding journey and they believe in me more
+            than I believe myself so I will not let them down and make the most
+            out of this.
+          </p>
+        </div>
+        <div class="col-lg-6 col-sm-12 mt-3">
+          <img
+            class="img-fluid rounded float-end d-none d-xxl-block w-75 h-75 myself"
+            src="./images/me.jpg"
+            alt="myself"
+          />
+        </div>
+      </div>
+    </main>
+
+    <!-- PROJECT SECTION -->
+    <section class="container-fluid col-md-6 mb-5" id="projects">
+      <h2>PROJECTS</h2>
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner rounded">
+          <div class="carousel-item active">
+            <img
+              src="./images/firstBootstrap.png"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <!-- <h5 class="mb-5 fw-bold fs-3">First Bootstrap Project</h5> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/simonGame.png"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5 class="mb-5 fw-bold fs-3">Simon Game</h5> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/numberGuesser.png"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <!-- <h5 class="mb-1 fw-bold fs-3">Number Guesser by CodeCademy</h5> -->
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <span>&#8594; First Bootstrap</span>
+      <span>&#8594; Simon Game</span>
+      <span>&#8594; Number Guesser</span>
+      <span>&#8594; More soon :))</span>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="container col-md-6 mb-5 mt-5" id="skills">
+      <h2>SKILLS</h2>
+      <div class="skills">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-square-js"></i>
+        <i class="fa-brands fa-bootstrap"></i><i class="fa-brands fa-java"></i>
+        <i class="fa-brands fa-git"></i>
+        <i class="fa-brands fa-square-github"></i>
+        <i class="fa-brands fa-node"></i>
+        <i class="fa-brands fa-npm"></i>
+        <i class="fa-brands fa-java"></i>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="container col-md-6 mt-5" id="contacts">
+      <h2>CONTACTS</h2>
+      <p>
+        Have an interesting project or feedbacks? Feel free to contact me I
+        would love to hear it!
+      </p>
+      <div class="opacity-75">
+        <a href="https://www.facebook.com/josebenedicto.gregorio"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/444__se/">
+          <i class="fa-brands fa-square-instagram"></i
+        ></a>
+        <i class="fa-brands fa-discord"></i>
+        <a href="https://github.com/JoseeGregorio30"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="container col-md-6 mt-5">
+      <p class="text-center">&copy; Copyright 2023</p>
+    </footer>
+
+    <!-- MAIN SCRIPT -->
+    <script src="./app.js"></script>
+
+    <!-- BOOTSRAP SCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/56e8ab21b6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
